@@ -1,4 +1,21 @@
 .feactures .fas {
   font-size:40px;
-  color: green;
+  color: orange;
+}
+/*afecta la clase footer*/
+.footer{
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #333;
+  color: #efefef;
+}
+/*afecta solo los enlaces*/
+.footer a{
+  color: #9af7f3;
+}
+
+@media only screen and (max-width: 768px){
+.footer {height: 350px;}
 }
