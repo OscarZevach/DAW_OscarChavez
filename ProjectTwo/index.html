@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
   <!-- sirve para agregar la libreria de los iconos   -->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <!--SE AGREGA LOS ESTILOS PERSONALIZADOS-->
+  <link rel="stylesheet" href="css/styles.css">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +16,7 @@
 
 <body>
   <!--AQUI VA LA BARRA DE NAVEGACION-->
-<nav class="navbar navbar-expand-md navbar-light fixed-top navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-light fixed-top navbar-dark bg-dark ">
   <a href="index.html" class="navbar-brand">Company logo </a>
   <button class= "navbar-toggler" data-toggle="collapse" data-target="#navegacion"><span class="navbar-toggler-icon"></span></button>
 
@@ -34,11 +36,37 @@
   </div>
 </nav>
 
+<!--CONTENEDOR-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Featured Product</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="btn-group btn-group-lg">
+        <button class="btn btn-info">Buy Now!</button>
+        <button class="btn btn-default">Free Trail</button>
+      </div>
+      <p><a href="#">Read more about the product</a></p>
+    </div>
 
-<!--se agrega la libreria de bootstrap.js que permite la animacion del boton-->
-<script src="bower_components/jquery/dist/jquery.js"></script>
+    <div class="col-md-8 col-md-6 d-none d-sm-block" >
+      <img src="img/554.jpg" alt="" width="750px" height="300px">
+
+    </div>
+  </div>
+  <hr>
+</div>
+
+
+
+
+
+
 <!--se agrega la libreria jquery para que boostrap.js funcione-->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!--se agrega la libreria de bootstrap.js que permite la animacion del boton-->
 <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
+<!--SE AGREGA PARA PODER DARLE ANIMACION A LOS CONTENIDOS-->
 <script src="bower_components/hammerjs/hammer.js"></script>
   <script>
     var $body = document.body;
